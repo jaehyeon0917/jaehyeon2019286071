@@ -10,23 +10,23 @@
 
 
 		body{margin: auto;}
-		.row{width: 600px; margin: auto; padding: 0px 5px; margin-top: 0px; margin-bottom: 20px;}
+		.row{width: 300px; margin: auto; padding: 0px 5px; margin-top: 0px; margin-bottom: 20px;}
 		.col-1{margin: 0px 0px;}
-		.bg-none{background: none;}
+		.bg-none{background: none; font-size: 0.5em }
 		.bg-white{background: white;}
-		header{height: 1000px;}
+		header{height: 500px; }
 		.bg-header{background: url('money01.jpg');
 				background-attachment: fixed;}
 
 		.text-black{color: white;}
-		.text-align-center{text-align: center;}
-		img{width: 100%}
-		header{font-family: stylish; font-size: 15em; text-align: center;}
-		section{font-family: stylish; font-size: 7em; text-align: center; margin-top: 200px; margin-bottom: 200px;}
+		.text-align-center{text-align: center; }
+		img{margin: 20px ;display: block; width: 100%;}
+		header{font-family: stylish; font-size: 13em; text-align: center; margin: auto;}
+		section{font-family: stylish; font-size: 1em; text-align: center; margin-top: 200px; margin-bottom: 200px; width: 500px;margin: auto;}
 
 		a{display: inline-block; background: none; width: 1000px; height: 60px; margin: 250px; 
 			text-align:center; line-height: 50px; text-decoration: none; font-family: stylish;
-				border-radius: 5px border: 2px; }
+				border-radius: 5px border: 2px; margin: auto; }
 
 		a:hover{color: black; transition: all 1s;}
 		footer{margin-top: 200px; text-align: center; font-size: 1em; word-spacing:0px;letter-spacing: 0px; font-family: stylish; }
@@ -41,10 +41,25 @@
 		"청년 재태크. 어떻게 해야할까?"	
 		</div>
 	</header>
-<section>
+	<nav class=".stickey">
+		<ul>
+		 <li>
+		 	<a href="#1">1st</a>
+		 </li>	
+		 <li>
+		 	<a href="#2">2nd</a>
+		 </li>
+		 <li>
+		 	<a href="#3">3rd</a>
+		 </li>
+		</ul>
+	</nav>
+<section id="1">
 	<div class="row-bg-white">
 		<div class="col-1 bg-white"></div>
-			<h2>사회로 내던져진 초년생들. 너무 어렵다 돈모으기.</h2>
+			<h2 class="bold">사회로 내던져진 초년생들. 
+				<br>
+				너무 어렵다 돈모으기.</h2>
 			<p>
 				<img src="01.jpg" width="600">
 				<br> 
@@ -59,7 +74,7 @@
 			</p>
 	</div>
 </section>
-<section>
+<section id="2">
 	<div class="row-bg-none"></div>
 	 <p>
 	 	<img src="02.png" width="600">
@@ -88,6 +103,13 @@
 	 	<br>
 	 	<br>
 	 	정책적으로도 다양한 제도를 활용해 청년들의 지원해주고 있었다. 
+
+	 	</p>
+</section>
+
+<section id="3">
+	<div class="row-bg-none"></div>
+
 	 	<br>
 	 	<br>
 	 	'청년 우대형 청약통장'
